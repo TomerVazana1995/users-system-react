@@ -1,0 +1,153 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.signUnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: inherit;
+}
+
+.signUpForm .selectContainer {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.selectContainer select,button {
+  width: 100%;
+}
+
+.signUnContainer h2 {
+  padding-bottom: 1rem;
+}
+
+.signUnContainer button {
+  padding: 0.15rem 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.signUnContainer input, select {
+  padding: 0.2rem 1rem;
+}
+
+.signUnContainer input, button, select {
+  width: 50%;
+}
+
+.usersContainer {
+  width: 100%;
+  display: flex;
+  padding-inline: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usersContainer table{
+  width: 100%;
+}
+.usersContainer h2 {
+  padding-bottom: 1rem;
+}
+
+.usersContainer tr{
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+
+.usersContainer tr:hover{
+  background-color: #d1d5d8;
+}
+
+.usersContainer tr,td {
+  padding: 0.5rem 2rem ;
+}
+
+.header {
+background-color: lightblue;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem 1rem;
+margin-bottom: 2rem;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  width: 60%;
+}
+
+.loginForm button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.loginForm input {
+  padding: 0.5rem 1rem;
+}
+
+.changePasswordContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+}
+
+.changePasswordForm {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 1rem;
+}
+
+.changePasswordContainer h2 {
+  padding-bottom: 2rem;
+}
+
+.changePasswordContainer button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.changePasswordForm input {
+  padding: 0.5rem 1rem;
+}
+
+
+.button {
+  width: 50%;
+}
+
+p {
+  cursor: pointer;
+}
